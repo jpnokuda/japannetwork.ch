@@ -1,21 +1,21 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="robots" content="noindex">
-<title>JAPAN NETWORK — Coming Soon</title>
+<title>JAPAN NETWORK</title>
+<meta http-equiv="refresh" content="0; url=en/index.html">
 <style>
-  body{margin:0;height:100vh;display:flex;align-items:center;justify-content:center;
-    background:#1B2A44;color:#F1EEE6;font-family:sans-serif;text-align:center;padding:24px;}
-  h1{font-size:1.4rem;font-weight:500;letter-spacing:0.05em;margin-bottom:12px;}
-  p{opacity:0.75;font-size:0.95rem;}
+  body{font-family:sans-serif;background:#1B2A44;color:#F1EEE6;display:flex;align-items:center;justify-content:center;height:100vh;margin:0;}
+  a{color:#F1EEE6;}
 </style>
 </head>
 <body>
-  <div>
-    <h1>JAPAN NETWORK</h1>
-    <p>Website renewal in progress.<br>まもなく公開いたします。</p>
-  </div>
+  <p>JAPAN NETWORK — <a href="en/index.html">English</a> / <a href="ja/index.html">日本語</a></p>
+  <script>
+    var lang = (navigator.language || "en").toLowerCase();
+    if(lang.indexOf("ja") === 0){ window.location.replace("ja/index.html"); }
+    else { window.location.replace("en/index.html"); }
+  </script>
 </body>
 </html>
