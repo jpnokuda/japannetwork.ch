@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WAGNER MC Oil — JAPAN NETWORK</title>
+<meta name="description" content="WAGNER Micro Ceramic Oil (WAGNER MC Oil): over two decades of successful distribution in Japan. Distributor sought for Asia.">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap">
+    <a href="index.html" class="brand">
+      <span class="mark">JAPAN NETWORK</span>
+      <span class="sub">Zürich · since 1997</span>
+    </a>
+    <nav class="main">
+      <a href="company.html">Company</a>
+      <a href="services.html">Services</a>
+      <a href="mcoil.html" class="current">WAGNER MC Oil</a>
+      <a href="contact.html">Contact</a>
+      <div class="lang-switch">
+        <a href="mcoil.html" class="active">EN</a>
+        <a href="../ja/mcoil.html">日本語</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="wrap">
+    <div class="eyebrow">Distributor sought</div>
+    <h1>WAGNER Micro Ceramic Oil (WAGNER MC Oil)</h1>
+  </div>
+</section>
+
+<section class="mcoil-band">
+  <div class="wrap">
+    <div class="section-head">
+      <p>Over two decades of successful WAGNER product distribution in the Japanese market. We are now seeking a reliable distribution partner in Asia with an established network and relevant market expertise.</p>
+    </div>
+
+    <div class="mcoil-grid">
+      <div>
+        <p class="quote">"After 15 years distributing WAGNER products across diverse industry sectors in Japan, we can confidently affirm: these are truly once-in-a-lifetime technologies."</p>
+        <p>Micro Ceramic is an advanced solid ceramic lubricant made of ultra-fine particles, from 0.02 to 0.15 μm — the smallest in its class, with the lowest friction coefficient of any solid material. Blended with oil or applied independently, it improves energy efficiency, extends machine lifespan, and increases operational stability, while remaining chemically neutral toward standard oil compositions.</p>
+        <dl class="facts" style="margin-top:28px;">
+          <div><dt>Trademark, Japan</dt><dd>No. 5284799</dd></div>
+          <div><dt>Trademark, China / Korea</dt><dd>WIPO 1044718</dd></div>
+          <div><dt>Automotive approval</dt><dd>Toyota part no. Y8543-40051</dd></div>
+        </dl>
+      </div>
+      <div>
+        <figure class="diagram">
+          <svg viewBox="0 0 320 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bearing surface coverage before and after Micro Ceramic treatment">
+            <text x="10" y="24" font-family="Inter,sans-serif" font-size="12" fill="#1B2A44">Effective bearing surface area</text>
+            <text x="10" y="58" font-family="Inter,sans-serif" font-size="11" fill="#1B2A44" opacity="0.75">Conventional lubrication</text>
+            <rect x="10" y="66" width="300" height="22" fill="#e7e2d4"/>
+            <rect x="10" y="66" width="70" height="22" fill="#A63A2E"/>
+            <text x="86" y="82" font-family="Inter,sans-serif" font-size="11" fill="#1B2A44">≈ 20–25%</text>
+            <text x="10" y="130" font-family="Inter,sans-serif" font-size="11" fill="#1B2A44" opacity="0.75">With WAGNER MC Oil</text>
+            <rect x="10" y="138" width="300" height="22" fill="#e7e2d4"/>
+            <rect x="10" y="138" width="240" height="22" fill="#9C7A45"/>
+            <text x="256" y="154" font-family="Inter,sans-serif" font-size="11" fill="#1B2A44">≈ 75–85%</text>
+            <text x="10" y="200" font-family="Inter,sans-serif" font-size="10" fill="#1B2A44" opacity="0.6">Based on electron-microscope imaging at 500× magnification.</text>
+          </svg>
+        </figure>
+        <figcaption>Micro Ceramic particles level surface irregularities, increasing bearing contact area and reducing dry, boundary, and mixed friction.</figcaption>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site">
+  <div class="wrap">
+    <div>
+      <h4>JAPAN NETWORK</h4>
+      <p>Innovation's Bridge between East and West</p>
+      <p>Badenerstrasse 8, 8104 Weiningen (Zürich), Switzerland</p>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <p><a href="mailto:info@japannetwork.ch">info@japannetwork.ch</a></p>
+      <p>+41 (0) 44 261 20 59</p>
+    </div>
+    <div>
+      <h4>Language</h4>
+      <p><a href="mcoil.html">English</a></p>
+      <p><a href="../ja/mcoil.html">日本語</a></p>
+    </div>
+  </div>
+  <div class="wrap fine">UID: CHE-440.869.880 — © JAPAN NETWORK, since 1997.</div>
+</footer>
+
+</body>
+</html>
