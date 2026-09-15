@@ -8,9 +8,9 @@
   --brass: #9C7A45;
   --ink: #23272E;
   --line: rgba(27,42,68,0.16);
-  --serif-en: 'Source Serif 4', serif;
+  --serif-en: 'Times New Roman', Times, serif;
   --serif-jp: 'Noto Serif JP', serif;
-  --sans-en: 'Inter', sans-serif;
+  --sans-en: 'Times New Roman', Times, serif;
   --sans-jp: 'Noto Sans JP', sans-serif;
 }
 
