@@ -64,6 +64,15 @@ nav.main a{
 nav.main a:hover{border-bottom-color:var(--vermillion);}
 nav.main a.current{border-bottom-color:var(--vermillion);color:var(--indigo-deep);}
 
+.lang-switch{display:flex;gap:6px;margin-left:8px;}
+.lang-switch a{
+  font-family:var(--sans-en);font-size:0.8rem;
+  border:1px solid var(--line);border-radius:2px;
+  padding:4px 9px;color:var(--indigo);
+  text-decoration:none;
+}
+.lang-switch a.active{background:var(--indigo);color:var(--paper);border-color:var(--indigo);}
+
 .page-hero{
   background:var(--indigo-deep);color:var(--paper);padding:58px 0 52px;
 }
