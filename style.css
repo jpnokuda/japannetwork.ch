@@ -195,7 +195,22 @@ body.jp footer.site h4{font-family:var(--serif-jp);}
 footer.site p{margin:2px 0;font-size:0.9rem;}
 footer.site a{color:#fff;}
 footer.site .fine{margin-top:30px;font-size:0.78rem;opacity:0.6;}
+/* ---------- product gallery ---------- */
+.product-gallery{
+  display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:36px;
+}
+.product-gallery img{
+  width:100%;height:180px;object-fit:contain;background:#fff;
+  border:1px solid var(--line);padding:12px;
+}
+@media (max-width:760px){.product-gallery{grid-template-columns:repeat(2,1fr);}}
 
+/* ---------- microscope compare ---------- */
+.microscope-compare{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:10px;}
+.microscope-compare figure{margin:0;}
+.microscope-compare img{width:100%;border:1px solid var(--line);}
+.microscope-compare figcaption{font-size:0.8rem;color:var(--indigo);opacity:0.75;margin-top:8px;text-align:center;}
+@media (max-width:760px){.microscope-compare{grid-template-columns:1fr;}}
 @media (max-width:760px){
   nav.main{display:none;}
   .hero h1{font-size:2rem;}
