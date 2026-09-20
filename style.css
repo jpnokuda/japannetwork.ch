@@ -202,7 +202,17 @@ footer.site .fine{margin-top:30px;font-size:0.78rem;opacity:0.6;}
 .product-gallery img{
   width:100%;height:180px;object-fit:contain;background:#fff;
   border:1px solid var(--line);padding:12px;
-}
+}/* ---------- comparison table ---------- */
+.mc-table{width:100%;border-collapse:collapse;margin-top:24px;font-size:0.88rem;}
+.mc-table th,.mc-table td{border:1px solid var(--line);padding:10px 12px;text-align:center;}
+.mc-table th{background:var(--indigo-deep);color:#fff;font-weight:600;}
+.mc-table td:first-child, .mc-table th:first-child{text-align:left;}
+@media (max-width:760px){.mc-table{font-size:0.75rem;}.mc-table th,.mc-table td{padding:6px 8px;}}
+
+/* ---------- distributor list ---------- */
+.distributor-list{margin-top:20px;}
+.distributor-list .item{padding:14px 0;border-bottom:1px solid var(--line);font-size:1rem;}
+.distributor-list .item:last-child{border-bottom:none;}
 @media (max-width:760px){.product-gallery{grid-template-columns:repeat(2,1fr);}}
 
 /* ---------- microscope compare ---------- */
