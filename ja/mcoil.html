@@ -9,10 +9,13 @@
 </head>
 <body class="jp">
 <header class="site">
-  <div class="wrap">
-    <a href="index.html" class="brand">
-      <span class="mark">JAPAN NETWORK</span>
-      <span class="sub">チューリッヒ・1997年創業</span>
+  <div class="wrap" style="display:flex; align-items:center; justify-content:space-between;">
+    <a href="index.html" class="brand" style="display:flex; align-items:center; gap:12px; text-decoration:none;">
+      <img src="../jn-logo.png" alt="JAPAN NETWORK Logo" style="height:36px; width:auto;">
+      <div>
+        <span class="mark" style="display:block; font-weight:bold;">JAPAN NETWORK</span>
+        <span class="sub" style="font-size:0.8rem; color:#666;">チューリッヒ・1997年創業</span>
+      </div>
     </a>
     <nav class="main">
       <a href="company.html">会社概要</a>
@@ -51,7 +54,7 @@
           開発者のWagner氏は1994年より継続的に研究・改良を重ね、1,500種類以上存在するセラミックの中から厳選した数種類の微粒子（0.02〜0.15µm）を組み合わせた『オンリーワン』の特殊セラミック配合オイル添加剤を完成させました。
         </p>
         <p style="line-height: 1.8; margin-bottom: 15px;">
-          当社（JAPAN NETWORK）は、Wagner氏との強い信頼関係のもと、欧州や日本、ポイントとなるアジア市場における最高峰の潤滑技術の普及に努めてまいりました。Wagner氏はインドのタタ財団（タタ・スチール）や現地大学のトライボロジー（摩擦学）専門家からの依頼でウェブ講義を行うなど、グローバルにその高い技術力が認められています。
+          当社（JAPAN NETWORK）は、Wagner氏との強い信頼関係のもと、欧州や日本、そしてアジア市場における最高峰の潤滑技術の普及に努めてまいりました。Wagner氏はインドのタタ財団（タタ・スチール）や現地大学のトライボロジー（摩擦学）専門家からの依頼でウェブ講義を行うなど、グローバルにその高い技術力が認められています。
         </p>
       </div>
 
@@ -89,23 +92,46 @@
       </div>
     </div>
 
+    <!-- セラミック作用メカニズム解説（新規追加） -->
+    <h2 style="font-size: 1.4rem; margin-bottom: 20px; color: #0f1c2e; border-bottom: 2px solid #eeeff2; padding-bottom: 8px;">マイクロセラミックの作用メカニズム</h2>
+    <div style="background: #f8f9fa; padding: 24px; border-radius: 8px; margin-bottom: 40px;">
+      <p style="line-height: 1.8; margin-bottom: 20px;">
+        超微粒子セラミック（0.02〜0.15µm）がオイルと共に循環し、金属表面のミクロな凹凸に固着・充填されます。これにより摩擦抵抗が極小化され、金属同士の直接接触を防止します。
+      </p>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; text-align: center;">
+        <div style="background: #fff; padding: 15px; border-radius: 6px; border: 1px solid #e9ecef;">
+          <img src="../metal-1.png" alt="金属表面の通常潤滑状態" style="width: 100%; max-width: 320px; height: auto; display: block; margin: 0 auto;">
+          <p style="font-size: 0.85rem; color: #555; margin-top: 10px;"><strong>【通常の油膜潤滑】</strong><br>高負荷時に油膜が切れ、金属突起同士が干渉して摩耗が発生。</p>
+        </div>
+        <div style="background: #fff; padding: 15px; border-radius: 6px; border: 1px solid #e9ecef;">
+          <img src="../metal-2.png" alt="セラミック粒子による平滑化作用" style="width: 100%; max-width: 320px; height: auto; display: block; margin: 0 auto;">
+          <p style="font-size: 0.85rem; color: #555; margin-top: 10px;"><strong>【MCオイル使用時】</strong><br>微細セラミックが凹凸を補修・平滑化し、理想的な滑り面を形成。</p>
+        </div>
+      </div>
+    </div>
+
     <!-- 製品写真・検証画像ギャラリー -->
     <h2 style="font-size: 1.4rem; margin-bottom: 20px; color: #0f1c2e; border-bottom: 2px solid #eeeff2; padding-bottom: 8px;">製品ラインナップと技術検証</h2>
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; margin-bottom: 40px; text-align: center;">
-      <!-- 製品画像 -->
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; margin-bottom: 40px; text-align: center;">
+      <!-- 製品画像（小ボトル） -->
       <div style="background: #f8f9fa; padding: 15px; border-radius: 8px; border: 1px solid #eee;">
         <img src="../W%203%20bittles.avif" alt="WAGNER MCオイル製品群" style="width: 100%; height: auto; border-radius: 4px; display: block;">
-        <p style="font-size: 0.85rem; color: #555; margin-top: 8px;">WAGNER MCオイル製品ラインナップ</p>
+        <p style="font-size: 0.85rem; color: #555; margin-top: 8px;">MCオイル（小ボトル・ボトル容器）</p>
+      </div>
+      <!-- 製品画像（大容量・業務用） -->
+      <div style="background: #f8f9fa; padding: 15px; border-radius: 8px; border: 1px solid #eee;">
+        <img src="../mcoio-5L.jpg" alt="WAGNER MCオイル 5L缶/業務用" style="width: 100%; height: auto; border-radius: 4px; display: block;">
+        <p style="font-size: 0.85rem; color: #555; margin-top: 8px;">MCオイル（業務用・大容量タンク）</p>
       </div>
       <!-- 顕微鏡検証画像1 -->
       <div style="background: #f8f9fa; padding: 15px; border-radius: 8px; border: 1px solid #eee;">
         <img src="../%E9%A1%9F%E5%BE%AE%E9%8F%A1%201.avif" alt="従来の潤滑方法による金属表面" style="width: 100%; height: auto; border-radius: 4px; display: block;">
-        <p style="font-size: 0.85rem; color: #555; margin-top: 8px;">検証：従来潤滑による金属表面（裂溝・キズ）</p>
+        <p style="font-size: 0.85rem; color: #555; margin-top: 8px;">検証：従来潤滑の金属表面（キズ多）</p>
       </div>
       <!-- 顕微鏡検証画像2 -->
       <div style="background: #f8f9fa; padding: 15px; border-radius: 8px; border: 1px solid #eee;">
         <img src="../%E9%A1%9F%E5%BE%AE%E9%8F%A1%202.avif" alt="MCオイル使用後の平滑化された表面" style="width: 100%; height: auto; border-radius: 4px; display: block;">
-        <p style="font-size: 0.85rem; color: #555; margin-top: 8px;">検証：MCオイル使用後（平滑度75〜85%増加）</p>
+        <p style="font-size: 0.85rem; color: #555; margin-top: 8px;">検証：MCオイル使用後（平滑化）</p>
       </div>
     </div>
 
