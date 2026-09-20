@@ -1,171 +1,158 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500;700&family=Noto+Sans+JP:wght@400;500&family=Source+Serif+4:opsz,wght@8..60,500;8..60,700&family=Inter:wght@400;500;600&display=swap');
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WAGNER MCオイル — JAPAN NETWORK</title>
+<meta name="description" content="WAGNER Micro Ceramic Oil(WAGNER MCオイル):トヨタY品番・TÜV認証取得済の特殊セラミック配合オイル添加剤。2026年度、新規代理店様を募集中。">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body class="jp">
 
-:root{
-  --indigo: #1B2A44;
-  --indigo-deep: #10192B;
-  --paper: #F1EEE6;
-  --vermillion: #A63A2E;
-  --brass: #9C7A45;
-  --ink: #23272E;
-  --line: rgba(27,42,68,0.16);
-  --serif-en: 'Source Serif 4', serif;
-  --serif-jp: 'Noto Serif JP', serif;
-  --sans-en: 'Inter', sans-serif;
-  --sans-jp: 'Noto Sans JP', sans-serif;
-}
+<header class="site">
+  <div class="wrap">
+    <a href="index.html" class="brand">
+      <span class="mark">JAPAN NETWORK</span>
+      <span class="sub">チューリッヒ・1997年創業</span>
+    </a>
+    <nav class="main">
+      <a href="company.html">会社概要</a>
+      <a href="services.html">事業内容</a>
+      <a href="mcoil.html" class="current">WAGNER MCオイル</a>
+      <a href="contact.html">お問い合わせ</a>
+      <div class="lang-switch">
+        <a href="../en/mcoil.html">EN</a>
+        <a href="mcoil.html" class="active">日本語</a>
+      </div>
+    </nav>
+  </div>
+</header>
 
-*{box-sizing:border-box;}
-html{scroll-behavior:smooth;}
-body{
-  margin:0;
-  background:var(--paper);
-  color:var(--ink);
-  font-family:var(--sans-en), var(--sans-jp);
-  line-height:1.7;
-}
-body.jp{font-family:var(--sans-jp), var(--sans-en);}
+<section class="page-hero mcoil-hero">
+  <div class="wrap">
+    <div class="eyebrow">Made in Germany</div>
+    <h1>WAGNER Micro Ceramic Technology(ワグナー・マイクロ・セラミック・テクノロジー)</h1>
+  </div>
+</section>
 
-h1,h2,h3{
-  font-family:var(--serif-en), var(--serif-jp);
-  font-weight:700;
-  color:var(--indigo-deep);
-  margin:0 0 0.5em;
-  letter-spacing:0.01em;
-}
-body.jp h1, body.jp h2, body.jp h3{font-family:var(--serif-jp), var(--serif-en);}
+<section class="mcoil-band">
+  <div class="wrap">
+    <div class="section-head">
+      <p>WAGNER Micro Ceramic Oil(WAGNER MCオイル)は、トヨタY品番(Y8543-40051)並びにTÜV(ドイツ技術検査協会認証)双方取得済の『オンリーワン』特殊セラミック配合オイル添加剤で、極圧摩擦・摩耗を軽減、燃料・電気消費量を削減する『環境負荷低減商品』です。</p>
+      <p>コンプレッサー・船舶・金型・鋳型・ロボティクス・走行レーンなどでの電力・燃料・原料などの削減に貢献します。(各国での実績・データー資料等が多々ございますので、お気軽にお問い合わせください。)</p>
+    </div>
 
-a{color:var(--indigo);}
-p{max-width:62ch;}
-img{max-width:100%;display:block;}
+    <div class="product-gallery">
+      <img src="../UMC 1L.avif" alt="WAGNER UMC 1L">
+      <img src="../W 3 bittles.avif" alt="WAGNER MCオイル 商品ラインナップ">
+      <img src="../W HIGH CLASS.avif" alt="WAGNER MCオイル ハイクラスシリーズ">
+      <img src="../W san.avif" alt="WAGNER MCオイル 商品写真">
+    </div>
 
-.wrap{max-width:1080px;margin:0 auto;padding:0 32px;}
+    <div class="section-head" style="margin-top:64px;">
+      <span class="num">技術について</span>
+      <h2>WAGNER MCオイルとは?</h2>
+      <p>1,500種類以上存在するセラミックより10数種類の性能・形状の異なるセラミックを選出、更にそれらのセラミックを各機能に合わせ0.02から0.15μmまでの非常に細かいセラミック微粒子に加工。セラミックの持つ主な潤滑能力やその他の異なる能力を最大限に活かすと共に、酸化しにくく化学的にも中立に作用し、ベースオイルや他の添加剤に不利な影響を与えない商品を開発するため、Wagner氏が1994年より継続的に複雑な研究・改良を繰り返し完成させた『オンリーワン』特殊セラミック配合オイル添加剤です。</p>
+    </div>
 
-/* ---------- header ---------- */
-header.site{
-  position:sticky;top:0;z-index:10;
-  background:rgba(241,238,230,0.92);
-  backdrop-filter:blur(6px);
-  border-bottom:1px solid var(--line);
-}
-header.site .wrap{
-  display:flex;align-items:center;justify-content:space-between;
-  padding-top:18px;padding-bottom:18px;
-}
-.brand{display:flex;flex-direction:column;text-decoration:none;color:var(--indigo-deep);}
-.brand .mark{font-family:var(--serif-en);font-weight:700;font-size:1.15rem;letter-spacing:0.04em;}
-.brand .sub{font-size:0.72rem;color:var(--indigo);opacity:0.75;margin-top:2px;}
-body.jp .brand .sub{font-family:var(--sans-jp);}
+    <div class="mcoil-grid" style="margin-top:40px;">
+      <div>
+        <img src="../MC図2.avif" alt="Micro Ceramic 構造図" style="border:1px solid var(--line);">
+      </div>
+      <div>
+        <dl class="facts">
+          <div><dt>商標登録(日本)</dt><dd>第5284799号</dd></div>
+          <div><dt>商標登録(中国・韓国)</dt><dd>WIPO 1044718</dd></div>
+          <div><dt>自動車部品認証</dt><dd>トヨタ純正部品番号 Y8543-40051</dd></div>
+          <div><dt>ドイツ技術検査</dt><dd>TÜV認証取得済</dd></div>
+        </dl>
+      </div>
+    </div>
 
-nav.main{display:flex;align-items:center;gap:28px;}
-nav.main a{
-  text-decoration:none;color:var(--ink);font-size:0.95rem;
-  padding-bottom:2px;border-bottom:1px solid transparent;
-}
-nav.main a:hover{border-bottom-color:var(--vermillion);}
-nav.main a.current{border-bottom-color:var(--vermillion);color:var(--indigo-deep);}
+    <div class="section-head" style="margin-top:64px;">
+      <span class="num">検証試験 1</span>
+      <h2>電子顕微鏡写真(500倍)</h2>
+    </div>
+    <div class="microscope-compare">
+      <figure>
+        <img src="../顕微鏡１.avif" alt="従来の潤滑方法による軸受表面(電子顕微鏡)">
+        <figcaption>&lt;従来の潤滑方法&gt;<br>強く裂溝された表面・ひっかき傷<br>表面の平滑度:20〜25%</figcaption>
+      </figure>
+      <figure>
+        <img src="../顕微鏡２.avif" alt="MCオイル使用後の軸受表面(電子顕微鏡)">
+        <figcaption>&lt;MCオイル使用後&gt;<br>滑らかになった軸受表面<br>平滑度が増加:75〜85%</figcaption>
+      </figure>
+    </div>
+    <p class="quote" style="margin-top:32px;">「潤滑で最も重要なのは、このクレーター状のオイルバッグをふさがず、ここにエンジンオイルが入る余地を残し、エンジンオイルが本来持っている優れた機能、特に熱を逃がす冷却や密封機能を活かすということなんです。」(Wagner氏談)</p>
 
-.lang-switch{display:flex;gap:6px;margin-left:8px;}
-.lang-switch a{
-  font-family:var(--sans-en);font-size:0.8rem;
-  border:1px solid var(--line);border-radius:2px;
-  padding:4px 9px;color:var(--indigo);
-  text-decoration:none;
-}
-.lang-switch a.active{background:var(--indigo);color:var(--paper);border-color:var(--indigo);}
+    <div class="section-head" style="margin-top:64px;">
+      <span class="num">比較表</span>
+      <h2>WAGNER MCオイル・PTFE(テフロン)・エンジンオイル比較表</h2>
+    </div>
+    <table class="mc-table">
+      <tr><th></th><th>MCオイル</th><th>PTFE(テフロン)</th><th>エンジンオイル鉱油</th><th>エンジンオイル合成</th></tr>
+      <tr><td>使用温度</td><td>1000℃</td><td>270℃</td><td>120℃</td><td>180℃</td></tr>
+      <tr><td>潤滑作用限界温度</td><td>1100℃</td><td>275℃</td><td>ca.140℃</td><td>ca.200℃</td></tr>
+      <tr><td>分解温度</td><td>3000℃</td><td>327℃</td><td>ca.230℃</td><td>ca.280℃</td></tr>
+      <tr><td>摩擦係数</td><td>0.02-0.18</td><td>0.04-0.6</td><td>0.29</td><td>0.23</td></tr>
+      <tr><td>熱伝導率</td><td>40-60 W/mK</td><td>0.24 W/mK</td><td>25 W/mK</td><td>27 W/mK</td></tr>
+      <tr><td>全塩基</td><td>13.26 KOH/g</td><td>11 KOH/g</td><td>7 KOH/g</td><td>8 KOH/g</td></tr>
+      <tr><td>動粘度(40℃)</td><td>279.3 mm2/s</td><td>100-200 mm2/s</td><td>40-100 mm2/s</td><td>40-100 mm2/s</td></tr>
+      <tr><td>動粘度(100℃)</td><td>28.12 mm2/s</td><td>9-13 mm2/s</td><td>9-13 mm2/s</td><td>9-13 mm2/s</td></tr>
+      <tr><td>金属付着</td><td>付着有り</td><td>付着無し</td><td>限られている</td><td>限られている</td></tr>
+      <tr><td>分子サイズ</td><td>0.02-0.15μm</td><td>0.02-1μm</td><td>---</td><td>---</td></tr>
+      <tr><td>分解時</td><td>無毒</td><td>毒性有り</td><td>無毒</td><td>無毒</td></tr>
+    </table>
 
-.page-hero{
-  background:var(--indigo-deep);color:var(--paper);padding:58px 0 52px;
-}
-.page-hero .eyebrow{font-size:0.85rem;color:var(--brass);margin-bottom:10px;}
-body.jp .page-hero .eyebrow{font-family:var(--sans-jp);}
-.page-hero h1{color:#fff;font-size:2.1rem;max-width:20ch;}
+    <div class="section-head" style="margin-top:64px;">
+      <span class="num">出会いと歩み</span>
+      <h2>Wagner氏、WAGNER MCオイルとの出会い</h2>
+      <p>2006年3月、ドイツからスイス・チューリッヒへ来ていたWagner氏、そしてMCオイルと出会うことができました。Wagner氏の化学者としての非凡な才能のみならずエンジニアとしてのレベルの高さにも非常に驚かされましたが、やはりそれ以上に彼の控えめで温厚な人柄、ユーモアのセンスなど、最初から波長が合う感じがしました。</p>
+      <p>その後、日本を中心にアジア市場でのWAGNERプロダクト販売を一任され、私もこの真の『オンリーワン』商品をアジア全域に広げるべく各国での商標を登録し本格的にスタートを切りました。</p>
+      <p>現在では、このトライボロジー事業が私のライフワークとなり、今後もWagner氏そして関係者の皆様と共に一意専心するつもりです。</p>
+      <p style="margin-top:16px;">JAPAN NETWORK チューリッヒ スイス<br>代表 奥田 芳昭</p>
+    </div>
 
-/* ---------- mcoil hero (red/black theme) ---------- */
-.mcoil-hero{
-  background:linear-gradient(135deg, #1a0605 0%, #3a0a08 35%, #6b120d 70%, #1a0605 100%);
-}
-.mcoil-hero .eyebrow{color:#ff5a4a;}
+    <div class="section-head" style="margin-top:64px;">
+      <span class="num">代理店</span>
+      <h2>正規代理店様</h2>
+    </div>
+    <div class="distributor-list">
+      <div class="item">有限会社 大林モータース 様</div>
+      <div class="item">株式会社 小桜商会 様</div>
+    </div>
+    <p class="quote" style="margin-top:24px;">2026年度、新規代理店様を募集中です。</p>
+    <p>商品のお届けは、WAGNERドイツ本社から貴社まで全て弊社にてサポートさせていただきますので、どうぞお気軽にお問い合わせください。</p>
 
-.teaser-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0;
-  border-top:1px solid var(--line);border-left:1px solid var(--line);margin-top:8px;}
-.teaser-grid .teaser{
-  display:block;padding:30px 26px;text-decoration:none;color:inherit;
-  border-right:1px solid var(--line);border-bottom:1px solid var(--line);
-  transition:background 0.15s ease;
-}
-.teaser-grid .teaser:hover{background:rgba(27,42,68,0.04);}
-.teaser-grid h3{font-size:1.05rem;margin-bottom:8px;}
-.teaser-grid h3 a{text-decoration:none;color:var(--indigo-deep);}
-.teaser-grid h3 a:hover{color:var(--vermillion);}
-.teaser-grid p{font-size:0.9rem;opacity:0.8;margin:0;}
-.teaser-grid .go{display:inline-block;margin-top:14px;font-size:0.8rem;color:var(--vermillion);}
-@media (max-width:760px){.teaser-grid{grid-template-columns:1fr;}}
+    <div class="section-head" style="margin-top:56px;">
+      <span class="num">日本でのサポート先</span>
+      <h2>株式会社インターウエスト</h2>
+      <p>代表取締役 大平 豊(WAGNERビジネスサポートのためスイスより帰国、現在大阪在住)<br>
+      E-mail: <a href="mailto:interwest20@gmail.com">interwest20@gmail.com</a></p>
+    </div>
+  </div>
+</section>
 
-/* ---------- hero ---------- */
-.hero{
-  background:var(--indigo-deep);
-  color:var(--paper);
-  padding:96px 0 88px;
-  position:relative;
-  overflow:hidden;
-}
-.hero .wrap{position:relative;z-index:2;}
-.hero .bridge{
-  position:absolute;right:-8%;top:0;bottom:0;width:60%;
-  opacity:0.5;z-index:1;pointer-events:none;
-}
-.hero .eyebrow{
-  font-size:0.85rem;color:var(--brass);
-  margin-bottom:18px;font-family:var(--sans-en);
-}
-body.jp .hero .eyebrow{font-family:var(--sans-jp);}
-.hero h1{
-  color:#fff;font-size:2.6rem;line-height:1.25;max-width:16ch;
-}
-.hero p.lead{
-  color:rgba(241,238,230,0.86);font-size:1.08rem;max-width:52ch;margin-top:18px;
-}
-.hero .cta-row{margin-top:34px;display:flex;gap:16px;flex-wrap:wrap;}
-.btn{
-  display:inline-block;padding:12px 22px;
-  font-size:0.92rem;text-decoration:none;
-  border:1px solid var(--brass);color:var(--paper);
-  transition:background 0.15s ease;
-}
-.btn.primary{background:var(--vermillion);border-color:var(--vermillion);color:#fff;}
-.btn.primary:hover{background:#8c2f24;}
-.btn:not(.primary):hover{background:rgba(156,122,69,0.15);}
+<footer class="site">
+  <div class="wrap">
+    <div>
+      <h4>JAPAN NETWORK</h4>
+      <p>日本とヨーロッパを結ぶビジネスの架け橋</p>
+      <p>Badenerstrasse 8, 8104 Weiningen(チューリッヒ), スイス</p>
+    </div>
+    <div>
+      <h4>お問い合わせ</h4>
+      <p><a href="mailto:info@japannetwork.ch">info@japannetwork.ch</a></p>
+      <p>+41 (0) 44 261 20 59</p>
+    </div>
+    <div>
+      <h4>言語</h4>
+      <p><a href="../en/mcoil.html">English</a></p>
+      <p><a href="mcoil.html">日本語</a></p>
+    </div>
+  </div>
+  <div class="wrap fine">登記番号: CHE-440.869.880 — © JAPAN NETWORK, 1997年創業。</div>
+</footer>
 
-/* ---------- company hero image ---------- */
-.company-hero-image img{width:100%;max-height:360px;object-fit:cover;}
-
-/* ---------- product gallery ---------- */
-.product-gallery{
-  display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:36px;
-}
-.product-gallery img{
-  width:100%;height:180px;object-fit:contain;background:#fff;
-  border:1px solid var(--line);padding:12px;
-}
-@media (max-width:760px){.product-gallery{grid-template-columns:repeat(2,1fr);}}
-
-/* ---------- microscope compare ---------- */
-.microscope-compare{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:10px;}
-.microscope-compare figure{margin:0;}
-.microscope-compare img{width:100%;border:1px solid var(--line);}
-.microscope-compare figcaption{font-size:0.8rem;color:var(--indigo);opacity:0.75;margin-top:8px;text-align:center;}
-@media (max-width:760px){.microscope-compare{grid-template-columns:1fr;}}
-
-/* ---------- comparison table ---------- */
-.mc-table{width:100%;border-collapse:collapse;margin-top:24px;font-size:0.88rem;}
-.mc-table th,.mc-table td{border:1px solid var(--line);padding:10px 12px;text-align:center;}
-.mc-table th{background:var(--indigo-deep);color:#fff;font-weight:600;}
-.mc-table td:first-child, .mc-table th:first-child{text-align:left;}
-@media (max-width:760px){.mc-table{font-size:0.75rem;}.mc-table th,.mc-table td{padding:6px 8px;}}
-
-/* ---------- distributor list ---------- */
-.distributor-list{margin-top:20px;}
-.distributor-list .item{padding:14px 0;border-bottom:1px solid var(--line);font-size:1rem;}
-.distributor-list .item:last-child{border-bottom:none;}
-
-/* ---------- sections
+</body>
+</html>
