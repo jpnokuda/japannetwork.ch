@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>JAPAN NETWORK — 日本とヨーロッパを結ぶビジネスの架け橋</title>
-<meta name="description" content="JAPAN NETWORKは、ヨーロッパの先端製品・技術を日本市場へ紹介する架け橋です。1997年創業、輸出サポート・市場参入支援・異文化コンサルティングを提供。">
-<link rel="stylesheet" href="../style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JAPAN NETWORK — 日本とヨーロッパを結ぶビジネスの架け橋</title>
+  <meta name="description" content="スイス・チューリッヒで1997年創業。日本とヨーロッパを結ぶ輸出サポート、市場参入戦略、異文化コンサルティング。">
+  <link rel="stylesheet" href="../style.css">
 </head>
 <body class="jp">
-
 <header class="site">
-  <div class="wrap">
-    <a href="index.html" class="brand">
-      <span class="mark">JAPAN NETWORK</span>
-      <span class="sub">チューリッヒ・1997年創業</span>
+  <div class="wrap" style="display:flex; align-items:center; justify-content:space-between;">
+    <a href="index.html" class="brand" style="display:flex; align-items:center; gap:12px; text-decoration:none;">
+      <!-- ロゴ画像 -->
+      <img src="../logo.avif.avif" alt="JAPAN NETWORK Logo" style="height:36px; width:auto;">
+      <div>
+        <span class="mark" style="display:block; font-weight:bold;">JAPAN NETWORK</span>
+        <span class="sub" style="font-size:0.8rem; color:#666;">チューリッヒ・1997年創業</span>
+      </div>
     </a>
     <nav class="main">
       <a href="company.html">会社概要</a>
@@ -28,34 +31,54 @@
   </div>
 </header>
 
-<section class="hero" style="background-image:linear-gradient(rgba(16,25,43,0.55),rgba(16,25,43,0.82)),url('../Zurich.avif');background-size:cover;background-position:center;">
+<!-- チューリッヒ背景のトップヒーローセクション -->
+<section class="hero" style="
+  position: relative;
+  background: linear-gradient(rgba(15, 28, 46, 0.7), rgba(15, 28, 46, 0.7)), url('../zurich.avif.avif') center/cover no-repeat;
+  color: #ffffff;
+  padding: 100px 0;
+">
   <div class="wrap">
-    <div class="eyebrow">スイス・チューリッヒ — 日本、1997年より</div>
-    <h1>日本とヨーロッパを結ぶ、ビジネスの架け橋。</h1>
-    <p class="lead">JAPAN NETWORKは、ヨーロッパの先端的な製品・技術を日本市場へ紹介し、日本企業がヨーロッパの優れた技術に出会う機会をつくります。</p>
+    <div class="eyebrow" style="color: #d1d5db; font-size: 0.95rem; margin-bottom: 12px;">チューリッヒ・1997年創業</div>
+    <h1 style="font-size: 2.8rem; line-height: 1.3; font-weight: bold; margin-bottom: 20px; color: #ffffff;">
+      日本とヨーロッパを結ぶ<br>ビジネスの架け橋
+    </h1>
+    <p class="lead" style="font-size: 1.15rem; line-height: 1.8; max-width: 600px; color: #e5e7eb; margin-bottom: 30px;">
+      25年以上の実績と独自のネットワークで、スイスおよび欧州企業の日本市場参入、日本企業の欧州展開をトータルにサポートいたします。
+    </p>
+    <div class="cta-row" style="display:flex; gap:16px;">
+      <a href="services.html" class="btn primary" style="background:#a63a2e; color:#fff; padding:12px 24px; text-decoration:none; border-radius:4px;">事業内容を見る</a>
+      <a href="contact.html" class="btn" style="border:1px solid #fff; color:#fff; padding:12px 24px; text-decoration:none; border-radius:4px;">お問い合わせ</a>
+    </div>
   </div>
 </section>
 
-<section>
+<!-- 主な事業領域 -->
+<section style="padding: 70px 0; background: #ffffff;">
   <div class="wrap">
-    <div class="section-head">
-      <h2>25年にわたり、東西二つの市場をつないできました。</h2>
-      <p>輸出サポートから、次にご紹介するヨーロッパ製品探しまで。各ページで詳しくご紹介しています。</p>
+    <div class="section-head" style="margin-bottom: 40px;">
+      <span class="num" style="color: #9c7a45; font-size: 0.9rem; font-weight: bold;">OUR SERVICES</span>
+      <h2 style="font-size: 2rem; color: #10192b; margin-top: 5px;">事業内容</h2>
     </div>
 
-    <div class="teaser-grid">
-      <div class="teaser">
-        <h3><a href="company.html">会社概要</a></h3>
-        <p>1997年、奥田芳昭がチューリッヒで設立。</p>
-      </div>
-      <div class="teaser">
-        <h3><a href="services.html">事業内容</a></h3>
-        <p>輸出サポート、市場参入戦略、異文化コンサルティング。</p>
-      </div>
-      <div class="teaser">
-        <h3><a href="mcoil.html">WAGNER MCオイル</a></h3>
-        <p>主力製品セラミックオイルの代理店様を募集中。</p>
-      </div>
+    <div class="teaser-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px;">
+      <a href="services.html" class="teaser" style="display:block; padding: 28px; background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 8px; text-decoration: none; color: inherit;">
+        <h3 style="font-size: 1.2rem; color: #10192b; margin-bottom: 10px;">輸出サポート</h3>
+        <p style="font-size: 0.95rem; color: #555; line-height: 1.6;">欧州製品の日本市場向け輸出手続きや現地パートナー探しをスムーズに進行します。</p>
+        <span class="go" style="color: #a63a2e; font-weight: bold; font-size: 0.9rem; margin-top: 15px; display: inline-block;">詳しく見る →</span>
+      </a>
+
+      <a href="services.html" class="teaser" style="display:block; padding: 28px; background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 8px; text-decoration: none; color: inherit;">
+        <h3 style="font-size: 1.2rem; color: #10192b; margin-bottom: 10px;">市場参入戦略</h3>
+        <p style="font-size: 0.95rem; color: #555; line-height: 1.6;">現地市場調査から具体的なビジネスモデル策定まで、最適な戦略を立案・実行します。</p>
+        <span class="go" style="color: #a63a2e; font-weight: bold; font-size: 0.9rem; margin-top: 15px; display: inline-block;">詳しく見る →</span>
+      </a>
+
+      <a href="mcoil.html" class="teaser" style="display:block; padding: 28px; background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 8px; text-decoration: none; color: inherit;">
+        <h3 style="font-size: 1.2rem; color: #10192b; margin-bottom: 10px;">WAGNER MCオイル</h3>
+        <p style="font-size: 0.95rem; color: #555; line-height: 1.6;">ドイツ・WAGNER社の高品質特殊セラミック配合オイル添加剤の日本総輸入販売元。</p>
+        <span class="go" style="color: #a63a2e; font-weight: bold; font-size: 0.9rem; margin-top: 15px; display: inline-block;">詳しく見る →</span>
+      </a>
     </div>
   </div>
 </section>
@@ -80,6 +103,5 @@
   </div>
   <div class="wrap fine">登記番号: CHE-440.869.880 — © JAPAN NETWORK, 1997年創業。</div>
 </footer>
-
 </body>
 </html>
