@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>会社概要 — JAPAN NETWORK</title>
-<meta name="description" content="JAPAN NETWORK:1997年チューリッヒにて奥田芳昭が設立。25年以上にわたりスイスと日本のビジネスをつないでいます。">
-<link rel="stylesheet" href="../style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>会社概要 — JAPAN NETWORK</title>
+  <meta name="description" content="1997年創業。スイス・チューリッヒを拠点に日本と欧州のビジネスをつなぐJAPAN NETWORKの会社概要。">
+  <link rel="stylesheet" href="../style.css">
 </head>
 <body class="jp">
-
 <header class="site">
-  <div class="wrap">
-    <a href="index.html" class="brand">
-      <span class="mark">JAPAN NETWORK</span>
-      <span class="sub">チューリッヒ・1997年創業</span>
+  <div class="wrap" style="display:flex; align-items:center; justify-content:space-between;">
+    <a href="index.html" class="brand" style="display:flex; align-items:center; gap:12px; text-decoration:none;">
+      <!-- ロゴ画像 -->
+      <img src="../logo.avif.avif" alt="JAPAN NETWORK Logo" style="height:36px; width:auto;">
+      <div>
+        <span class="mark" style="display:block; font-weight:bold;">JAPAN NETWORK</span>
+        <span class="sub" style="font-size:0.8rem; color:#666;">チューリッヒ・1997年創業</span>
+      </div>
     </a>
     <nav class="main">
       <a href="company.html" class="current">会社概要</a>
@@ -28,29 +31,60 @@
   </div>
 </header>
 
-<div class="company-hero-image">
-    <img src="../Office.avif" alt="JAPAN NETWORK オフィス">
+<!-- オフィス写真（「会社概要」テキストのすぐ上） -->
+<div class="company-hero-image" style="width: 100%; overflow: hidden;">
+  <img src="../Office.avif" alt="JAPAN NETWORK オフィス" style="width: 100%; height: auto; max-height: 480px; object-fit: cover; display: block;">
 </div>
 
-<section class="page-hero" style="padding-top:44px;">
+<!-- 紺色の帯（見出しエリア） -->
+<section class="page-hero" style="background: #10192b; color: #ffffff; padding: 44px 0; border-top: 3px solid #9c7a45;">
   <div class="wrap">
-    <div class="eyebrow">会社概要</div>
-    <h1>25年にわたり、2つの市場をつないできました。</h1>
+    <div class="eyebrow" style="color: #9c7a45; font-size: 0.95rem; margin-bottom: 8px; font-weight: bold;">会社概要</div>
+    <h1 style="font-size: 2.2rem; color: #ffffff; margin: 0;">25年にわたり、東西の市場をつないできました。</h1>
   </div>
 </section>
 
-<section>
+<!-- 本文コンテンツ -->
+<section style="padding: 60px 0; background: #ffffff;">
   <div class="wrap">
-    <div class="section-head">
-      <p>チューリッヒで日本およびスイスの多国籍企業での実務経験を積んだ奥田芳昭が、双方にとって信頼できる窓口となるべくJAPAN NETWORKを設立しました。言語、商習慣、交渉文化の違いを理解した上で、両国のビジネスをつなぎます。</p>
+    <div class="section-head" style="max-width: 720px; margin-bottom: 40px;">
+      <p style="font-size: 1.1rem; line-height: 1.8; color: #333;">
+        チューリッヒで日本およびスイスの多国籍企業にて実務経験を積んだ奥田芳昭が、双方にとって信頼できる窓口となるべくJAPAN NETWORKを設立しました。言語、商習慣、交渉文化の違いを理解した上で、両国のビジネスをつなぎます。
+      </p>
     </div>
-    <dl class="facts">
-      <div><dt>設立</dt><dd>1997年7月1日</dd></div>
-      <div><dt>資本金</dt><dd>CHF 60,000</dd></div>
-      <div><dt>代表</dt><dd>奥田 芳昭</dd></div>
-      <div><dt>知的財産権</dt><dd>アジアにて6件登録</dd></div>
-      <div><dt>登記番号</dt><dd>UID CHE-440.869.880</dd></div>
-      <div><dt>所在地</dt><dd>ヴァイニンゲン(チューリッヒ)</dd></div>
+
+    <!-- 会社データ -->
+    <dl class="facts" style="
+      display: grid; 
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+      gap: 0; 
+      border-top: 1px solid #e1e4e8; 
+      border-left: 1px solid #e1e4e8;
+    ">
+      <div style="padding: 20px 24px; border-right: 1px solid #e1e4e8; border-bottom: 1px solid #e1e4e8;">
+        <dt style="font-size: 0.85rem; color: #666; margin-bottom: 6px;">設立</dt>
+        <dd style="font-size: 1.1rem; font-weight: bold; color: #10192b; margin: 0;">1997年7月1日</dd>
+      </div>
+      <div style="padding: 20px 24px; border-right: 1px solid #e1e4e8; border-bottom: 1px solid #e1e4e8;">
+        <dt style="font-size: 0.85rem; color: #666; margin-bottom: 6px;">資本金</dt>
+        <dd style="font-size: 1.1rem; font-weight: bold; color: #10192b; margin: 0;">CHF 60,000</dd>
+      </div>
+      <div style="padding: 20px 24px; border-right: 1px solid #e1e4e8; border-bottom: 1px solid #e1e4e8;">
+        <dt style="font-size: 0.85rem; color: #666; margin-bottom: 6px;">登記番号</dt>
+        <dd style="font-size: 1.1rem; font-weight: bold; color: #10192b; margin: 0;">CHE-440.869.880</dd>
+      </div>
+      <div style="padding: 20px 24px; border-right: 1px solid #e1e4e8; border-bottom: 1px solid #e1e4e8;">
+        <dt style="font-size: 0.85rem; color: #666; margin-bottom: 6px;">代表者</dt>
+        <dd style="font-size: 1.1rem; font-weight: bold; color: #10192b; margin: 0;">奥田 芳昭</dd>
+      </div>
+      <div style="padding: 20px 24px; border-right: 1px solid #e1e4e8; border-bottom: 1px solid #e1e4e8;">
+        <dt style="font-size: 0.85rem; color: #666; margin-bottom: 6px;">所在地</dt>
+        <dd style="font-size: 1.0rem; font-weight: bold; color: #10192b; margin: 0;">Badenerstrasse 8, 8104 Weiningen (Zurich), Switzerland</dd>
+      </div>
+      <div style="padding: 20px 24px; border-right: 1px solid #e1e4e8; border-bottom: 1px solid #e1e4e8;">
+        <dt style="font-size: 0.85rem; color: #666; margin-bottom: 6px;">連絡先</dt>
+        <dd style="font-size: 1.0rem; font-weight: bold; color: #10192b; margin: 0;">info@japannetwork.ch / +41 (0) 44 261 20 59</dd>
+      </div>
     </dl>
   </div>
 </section>
@@ -75,6 +109,5 @@
   </div>
   <div class="wrap fine">登記番号: CHE-440.869.880 — © JAPAN NETWORK, 1997年創業。</div>
 </footer>
-
 </body>
 </html>
